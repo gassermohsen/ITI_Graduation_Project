@@ -1,0 +1,15 @@
+# - name: install and configure kubectl
+#   hosts: bastion
+#   roles:
+#     - roles/kubectl
+
+# - name: install jenkins
+#   hosts: bastion
+#   roles:
+#     - roles/k8s
+
+- name: install docker
+  hosts: worker_node
+  roles:
+    - roles/docker
+

@@ -1,0 +1,4 @@
+---
+# vars file for roles/kubectl
+    aws_access_key: ""
+    aws_secret_key: ""
